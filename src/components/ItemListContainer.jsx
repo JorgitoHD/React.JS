@@ -7,4 +7,4 @@ function greeting(props){
      )
 }
 
-export default greeting
+export default greeting 
