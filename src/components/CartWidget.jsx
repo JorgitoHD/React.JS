@@ -1,10 +1,11 @@
 
 
-
-
 export const CartWidget = () =>{
     return (
-        <i className="bi bi-cart2"></i>
+        <div>
+        <img src="../carrito.png" alt="Shopcart"/>
+        <small>3</small>
+        </div>
     )
 }
 export default CartWidget

@@ -20,15 +20,15 @@ const AppNavbar = () => {
         <Nav className="mr-auto">
           <Nav.Link href="#shop">Shop</Nav.Link>
           <NavDropdown title="Categories" id="collasible-nav-dropdown">
-            <NavDropdown.Item href="#Action">Action</NavDropdown.Item>
-            <NavDropdown.Item href="#Adventure">Adventure</NavDropdown.Item>
-            <NavDropdown.Item href="#Racing">Racing</NavDropdown.Item>
+            <NavDropdown.Item href="#action">Action</NavDropdown.Item>
+            <NavDropdown.Item href="#adventure">Adventure</NavDropdown.Item>
+            <NavDropdown.Item href="#racing">Racing</NavDropdown.Item>
             <NavDropdown.Divider />
-            <NavDropdown.Item href="#BrowseAll">Browse All</NavDropdown.Item>
+            <NavDropdown.Item href="#browseAll">Browse All</NavDropdown.Item>
             </NavDropdown>
           <Nav.Link href="#comunity">Comunity</Nav.Link>
           <Nav.Link href="#support">Support</Nav.Link>
-          <Nav.Link href="#shopcart">Shopcart<CartWidget /></Nav.Link>
+          <Nav.Link href="#shopcart"><CartWidget /></Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
