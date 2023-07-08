@@ -1,0 +1,14 @@
+.xd{
+    position: absolute;
+    right: 10px;
+}
+.lol{
+    position: absolute;
+    top: 28px;
+    right: 4px;
+    border: 2px solid;
+    border-radius: 100px;
+    border-color: black;
+    background-color: white;
+    width: 19px;
+}
